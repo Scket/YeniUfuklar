@@ -1,0 +1,4 @@
+from PortDetector import Controller
+
+
+print Controller(device_ID = 'USB VID:PID=10c4:ea60 SNR=0001')
