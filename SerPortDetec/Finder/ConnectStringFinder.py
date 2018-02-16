@@ -14,7 +14,7 @@ try:
 	device = connected_list[0]
 	print "[INFO] Your Device Port : " + device[0]
 	print "[INFO] Port Name : " + device[1]
-	print "[INFO] Device PID and SNR : " +device[2]
+	print "[INFO] Device_ID (PID and SNR) : " +device[2]
 	
 except:	
 
