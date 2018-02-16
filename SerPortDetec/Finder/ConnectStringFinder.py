@@ -2,7 +2,7 @@ import serial.tools.list_ports
 connected_list = []
 empty_list = []
 try:
-	print("[INFO] Waiting for ports")
+	_ = raw_input("[Unplug your device and press Enter")
 	for port in list(serial.tools.list_ports.comports()):
 		if not port[2] == 'n/a' : empty_list.append(port)
 	_ = raw_input("[Plug into your device and press Enter")
