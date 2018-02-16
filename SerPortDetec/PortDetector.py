@@ -13,7 +13,7 @@ def Controller(device_ID):
 
 if __name__ == '__main__':
 	try:
-		Controller(False)
+		Controller()
 	except:
 		print "This code must be start in another code"
 
